@@ -1,0 +1,8 @@
+detector:
+  input_size: 416
+  weight: /path/yolov4_best.weights
+  config: /path/yolov4.cfg
+  meta: /path/darknet/obj.data
+  hier_threshold: 0.45
+  nms_threshold: 0.3
+  confidence: 0.5
